@@ -1,0 +1,99 @@
+<svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <symbol id="icon-back" viewBox="0 0 32 32">
+            <title>back</title>
+            <line x1="30" y1="16" x2="2" y2="16"/>
+            <polyline points="16 30 2 16 16 2"/>
+        </symbol>
+        <symbol id="icon-cross" viewBox="0 0 32 32">
+            <title>cross</title>
+            <line x1="2" y1="2" x2="30" y2="30"/>
+            <line x1="30" y1="2" x2="2" y2="30"/>
+        </symbol>
+        <symbol id="icon-down" viewBox="0 0 32 32">
+            <title>down</title>
+            <line x1="16" y1="2" x2="16" y2="30"/>
+            <polyline points="30 16 16 30 2 16"/>
+        </symbol>
+        <symbol id="icon-folder" viewBox="0 0 32 32">
+            <title>folder</title>
+            <polygon points="30 28 2 28 2 4 11 4 19 12 30 12 30 28"/>
+            <polyline points="13 6 28 6 28 12"/>
+        </symbol>
+        <symbol id="icon-menu" viewBox="0 0 32 32">
+            <title>menu</title>
+            <line class="cls-1" x1="2" y1="16" x2="30" y2="16"/>
+            <line class="cls-1" x1="2" y1="6" x2="30" y2="6"/>
+            <line class="cls-1" x1="2" y1="26" x2="30" y2="26"/>
+        </symbol>
+        <symbol id="icon-new" viewBox="0 0 32 32">
+            <title>new</title>
+            <line x1="16" y1="2" x2="16" y2="7"/>
+            <line x1="16" y1="25" x2="16" y2="30"/>
+            <line x1="2" y1="16" x2="7" y2="16"/>
+            <line x1="25" y1="16" x2="30" y2="16"/>
+            <line x1="9" y1="9" x2="5" y2="5"/>
+            <line x1="23" y1="9" x2="27" y2="5"/>
+            <line x1="9" y1="23" x2="5" y2="27"/>
+            <line x1="23" y1="23" x2="27" y2="27"/>
+        </symbol>
+        <symbol id="icon-pause" viewBox="0 0 32 32">
+            <title>pause</title>
+            <line x1="8" y1="30" x2="8" y2="2"/>
+            <line x1="24" y1="30" x2="24" y2="2"/>
+        </symbol>
+        <symbol id="icon-plus" viewBox="0 0 32 32">
+            <title>plus</title>
+            <line x1="16" y1="2" x2="16" y2="30"/>
+            <line x1="30" y1="16" x2="2" y2="16"/>
+        </symbol>
+        <symbol id="icon-preferences" viewBox="0 0 32 32">
+            <title>preferences</title>
+            <circle cx="4" cy="4" r="2"/>
+            <circle cx="16" cy="16" r="2"/>
+            <circle cx="28" cy="28" r="2"/>
+            <line x1="6" y1="4" x2="30" y2="4"/>
+            <line x1="2" y1="16" x2="14" y2="16"/>
+            <line x1="18" y1="16" x2="30" y2="16"/>
+            <line x1="2" y1="28" x2="26" y2="28"/>
+        </symbol>
+        <symbol id="icon-rss" viewBox="0 0 32 32">
+            <title>rss</title>
+            <circle cx="9" cy="23" r="3"/>
+            <path d="M6,10A16,16,0,0,1,22,26"/>
+            <path d="M6,2A24,24,0,0,1,30,26"/>
+        </symbol>
+        <symbol id="icon-speedometer" viewBox="0 0 32 32">
+            <title>speedometer</title>
+            <path d="M28.83,23.17C27.27,21.61,16,16,16,16s5.61,11.27,7.17,12.83a4,4,0,0,0,5.66-5.66Z"/>
+            <path d="M30,6V2.34A24,24,0,0,0,2.34,30H6"/>
+            <line x1="9.03" y1="9.03" x2="11.86" y2="11.86"/>
+            <line x1="6.95" y1="19.92" x2="3.14" y2="18.7"/>
+            <line x1="19.94" y1="6.93" x2="18.73" y2="3.12"/>
+        </symbol>
+        <symbol id="icon-search" viewBox="0 0 32 32">
+            <title>search</title>
+            <circle cx="13" cy="13" r="11"/>
+            <line x1="20.78" y1="20.78" x2="30" y2="30"/>
+        </symbol>
+        <symbol id="icon-start" viewBox="0 0 32 32">
+            <title>start</title>
+            <polygon points="6 2 6 30 30 16 6 2"/>
+        </symbol>
+        <symbol id="icon-stop" viewBox="0 0 32 32">
+            <title>stop</title>
+            <rect x="2" y="2" width="28" height="28"/>
+        </symbol>
+        <symbol id="icon-up" viewBox="0 0 32 32">
+            <title>up</title>
+            <line x1="16" y1="30" x2="16" y2="2"/>
+            <polyline points="2 16 16 2 30 16"/>
+        </symbol>
+        <symbol id="icon-url" viewBox="0 0 32 32">
+            <title>url</title>
+            <path d="M14,18.44a6,6,0,0,0,8.24-.2l6-6a6,6,0,0,0-8.49-8.49L17.41,6.1"/>
+            <path d="M18,13.56a6,6,0,0,0-8.24.2l-6,6a6,6,0,0,0,8.49,8.49l2.34-2.34"/>
+        </symbol>
+    </defs>
+</svg>

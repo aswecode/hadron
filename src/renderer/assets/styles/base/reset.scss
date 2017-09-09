@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'BebasNeueBook';
+  src: url('~@/assets/fonts/BebasNeueBook.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  outline: none;
+}
+
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1;
+  cursor: default;
+}
+
+button {
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+

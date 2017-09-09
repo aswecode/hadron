@@ -1,0 +1,9 @@
+// Override automatic hsl/a color conversion in SASS, which prevents the use of custom properties as hsl values
+
+@function hsl($h, $s, $l) {
+  @return unquote('hsl(#{$h}, #{$s}, #{$l})');
+}
+
+@function hsla($h, $s, $l, $a) {
+  @return unquote('hsl(#{$h}, #{$s}, #{$l}, #{$a})');
+}

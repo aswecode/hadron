@@ -1,0 +1,14 @@
+.separator {
+  background-color: var(--separator-color);
+  border-radius: 2px;
+  &.vertical {
+    height: auto;
+    margin: 0 var(--default-spacing-full);
+    width: 2px;
+  }
+  &.horizontal {
+    height: 2px;
+    margin: var(--default-spacing-full) 0;
+    width: auto;
+  }
+}

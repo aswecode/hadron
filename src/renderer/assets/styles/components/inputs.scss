@@ -1,0 +1,24 @@
+input {
+  &::placeholder {
+    color: var(--separator-color);
+  }
+  &[type=search]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+  }
+}
+
+.search-box {
+  align-items: center;
+  display: flex;
+  position: relative;
+  input[type=search] {
+    display: flex;
+    flex: 1;
+    font-size: inherit;
+  }
+  button {
+    border: none;
+    position: absolute;
+    right: 0;
+  }
+}

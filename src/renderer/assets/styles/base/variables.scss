@@ -1,0 +1,62 @@
+:root {
+  // COLORS
+
+  // Theme accent colors HSL definitions
+  --accent-hue-hadron: 340;
+  --accent-hue-indigo: 273;
+  --accent-hue-forest: 175;
+  --accent-saturation: 55%;
+  --accent-luminosity: 45%;
+  --theme-accent-hue: var(--accent-hue-indigo); // Change for switch between theme accent colors
+
+  // Theme base color HLS definitions
+  --base-hue: 220;
+  --base-saturation: 15%;
+  --base-luminosity-dark: 18%;
+  --base-luminosity-light: 96%;
+  --theme-base-luminosity: var(--base-luminosity-dark); // Change for switch from dark to light themes
+
+  // Derived colors luminosity definitions
+  --text-luminosity-dark: calc(var(--base-luminosity-light) / 1.05);
+  --text-luminosity-light: calc(var(--base-luminosity-dark) * 2);
+  --theme-text-luminosity: var(--text-luminosity-dark); // Change for switch from dark to light themes
+
+  --border-luminosity-dark: calc(var(--base-luminosity-light) / 1.5);
+  --border-luminosity-light: calc(var(--base-luminosity-dark) * 2.5);
+  --theme-border-luminosity: var(--border-luminosity-dark); // Change for switch from dark to light themes
+
+  --icon-luminosity-dark: calc(var(--base-luminosity-light) / 1.5);
+  --icon-luminosity-light: calc(var(--base-luminosity-dark) * 2.5);
+  --theme-icon-luminosity: var(--icon-luminosity-dark); // Change for switch from dark to light themes
+
+  --separator-luminosity-dark: calc(var(--base-luminosity-light) / 3);
+  --separator-luminosity-light: calc(var(--base-luminosity-dark) * 4.5);
+  --theme-separator-luminosity: var(--separator-luminosity-dark); // Change for switch from dark to light themes
+
+  --container-luminosity-dark: calc(var(--base-luminosity-dark) / 1.8);
+  --container-luminosity-light: calc(var(--base-luminosity-light) * 1.1);
+  --theme-container-luminosity: var(--container-luminosity-dark); // Change for switch from dark to light themes
+
+  // Relative colors
+  --base-color: hsl(var(--base-hue), var(--base-saturation), var(--theme-base-luminosity));
+  --accent-color: hsl(var(--theme-accent-hue), var(--accent-saturation), var(--accent-luminosity));
+  --text-color: hsl(var(--base-hue), var(--base-saturation), var(--theme-text-luminosity));
+  --border-color: hsl(var(--base-hue), var(--base-saturation), var(--theme-border-luminosity));
+  --icon-color: hsl(var(--base-hue), var(--base-saturation), var(--theme-icon-luminosity));
+  --separator-color: hsl(var(--base-hue), var(--base-saturation), var(--theme-separator-luminosity));
+  --container-color: hsl(var(--base-hue), var(--base-saturation), var(--theme-container-luminosity));
+
+  // Other
+  --default-spacing-full: 1rem;
+  --default-spacing-half: calc(var(--default-spacing-full) / 2);
+
+  --default-border: 2px;
+  --default-border-radius: 4px;
+  //--default-controls-height: 24px;
+}
+
+.toolbar {
+  button, input {
+    --default-height:  2.625rem;
+  }
+}

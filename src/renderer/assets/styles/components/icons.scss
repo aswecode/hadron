@@ -1,0 +1,10 @@
+svg[class^=icon-] {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  stroke-width: 4px;
+  stroke: var(--icon-color);
+  fill: none;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}

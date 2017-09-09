@@ -1,0 +1,80 @@
+table {
+
+    border-collapse: collapse;
+    font-family: "Open Sans", serif;
+    width: 100%;
+
+  thead {
+    border-bottom: 1px solid var(--separator-color);
+    tr th {
+      line-height: 1;
+      padding: 0 0 var(--default-spacing-half);
+      vertical-align: top;
+    }
+  }
+  th {
+    color: var(--border-color);
+    font-size: 13px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  tbody tr:first-child td {
+    padding-top: 10px;
+  }
+}
+
+.primary-line, .secondary-line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.primary-line {
+  font-size: 16px;
+  //line-height: 1;
+  //color: black;
+  position: relative;
+  svg[class^=icon-] {
+    left: 1px;
+    margin-right: 8px;
+    position: relative;
+    top: 1px;
+    stroke: var(--border-color);
+  }
+}
+
+.secondary-line {
+  color: var(--border-color);
+  font-size: 13px;
+}
+
+.progress-bar td {
+  padding: 4px 0;
+}
+
+.warning {
+  color: red;
+}
+
+.safe {
+  color: green;
+}
+
+progress[value] {
+  height: 8px;
+  width: 100%;
+  &::-webkit-progress-bar {
+    background-color: var(--base-color);
+    border: 1px solid var(--separator-color);
+    border-radius: 4px;
+  }
+  &::-webkit-progress-value {
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.25);
+    height: 8px;
+    position: relative;
+    top: -1px;
+  }
+  -webkit-appearance: none;
+}

@@ -1,0 +1,49 @@
+.app {
+  background-color: var(--base-color);
+  color: var(--text-color);
+  display: grid;
+  font-family: "Open Sans", serif;
+  overflow: hidden;
+  padding: var(--default-spacing-full);
+  transition: background-color .2s;
+  grid-gap: var(--default-spacing-half);
+  grid-template-rows: min-content 100% 1fr min-content;
+  grid-template-columns: minmax(240px, 300px) auto;
+}
+
+.app-sidebar, .app-content, .app-details {
+  padding: var(--default-spacing-full);
+  border-radius: var(--default-border-radius);
+  border: 1px solid var(--separator-color);
+  background-color: var(--container-color);
+}
+
+.app-header, .app-expander {
+  display: flex;
+  padding: var(--default-spacing-half);
+}
+
+.app-header {
+  grid-column: 2 / 3;
+}
+
+.app-expander {
+  grid-row: 1;
+}
+
+.app-sidebar {
+  display: flex;
+  grid-row: 2 / 4;
+}
+
+.app-content {
+
+}
+
+.app-details {
+
+}
+
+.app-footer {
+  grid-column: 1 / 3;
+}
