@@ -1,5 +1,5 @@
 <template>
-	<div id="app" class="app">
+	<div class="app">
 		<div class="app-expander">
 			<!-- START: Toolbar component -->
 			<div class="toolbar-tray">
